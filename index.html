@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" >
+  <title>mad story app</title>
+</head>
+<body>
+  <div class="container">
+     <h1>mad libs</h1>
+     <div class="form">
+      <label for="noun" >NOUN:</label>
+      <input type="text" id="noun">
+      <br />
+      <label for="verb" >VERB:</label>
+      <input type="text" id="verb">
+      <br />
+      <label for="adjective" >ADJECTIVE</label>
+      <input type="text" id="adjective">
+      <br />
+      <label for="adverb" >ADVERB:</label>
+      <input type="text" id="adverb">
+      <br />
+      <button id="generate" >generate story</button>
+
+     </div>
+     <div class="story" id="story"></div>
+     <button id="play-again">play again</button>
+     <br />
+     <h2>share</h2>
+     <button id="share-story-twitter">twitter</button>
+     <button id="share-story-facebook">facebook</button>
+     <button id="share-story-linkedin">linkedin</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
